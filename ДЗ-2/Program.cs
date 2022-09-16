@@ -1,6 +1,15 @@
-﻿int first = 2;
-int second = 3;
-int third = 7;
+﻿Console.WriteLine("Введите первое число ");
+int first;
+first = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Введите второе число ");
+int second;
+second = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Введите третье число ");
+int third;
+third = Convert.ToInt32(Console.ReadLine());
+
 int max = 0;
 
 if (second < first)
